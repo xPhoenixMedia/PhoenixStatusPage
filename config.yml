@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: PhoenixNetworks Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -64,7 +64,7 @@ buildFuture: true
 #
 # See:  https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 # Also: https://www.w3schools.com/tags/ref_language_codes.asp
-languageCode: en
+languageCode: de
 
 # What translation file should cState use?
 # You can also define whether missing
@@ -78,7 +78,7 @@ languageCode: en
 # than English! When tested with Lithuanian,
 # it would add unnecesary placeholders to
 # values that were intentionally empty.
-defaultContentLanguage: en
+defaultContentLanguage: de
 
 # What is the hostname or path to the root?
 # Where is the site hosted?
@@ -90,7 +90,7 @@ defaultContentLanguage: en
 # localhost should automatically work.
 #
 # Example: https://status.example.com/
-baseURL: https://cstate.mnts.lt
+baseURL: https://status.phoenixmedia.tk
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -106,6 +106,12 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: Gateway
+    - name: Bplaced Backend
+      description: The Backend and Host of PhoenixRedirect.
+    - name: Discord
+      description: PhoenixDiscord 2.0
+    - name: Main Page
+      description: When this is down the server room has burned to ground. Probably...
     - name: API
       description: The guts of the application.
     - name: Media Proxy
@@ -127,7 +133,7 @@ params:
   #
   # Default: true
   # BOOLEAN; `true`, `false`
-  useLargeHeaderDesign: false
+  useLargeHeaderDesign: true
 
   # Should we show the logo or the title
   # of the status page?
@@ -150,16 +156,16 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: We try to keep everything alive, but if something goes wrong or the world has exploded we will note it here.
 
   # Tabs on homepage
   # Uncomment to enable.
   #
-  # Format:
-  # customTabs:
-  #  -
-  #    name: Name
-  #    link: https://example.com
+  Format:
+   customTabs:
+    -
+      name: Website
+        link: https://phoenixmedia.tk
 
   # Auto refresh the page
   # every ~5 min
