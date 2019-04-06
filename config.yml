@@ -161,10 +161,10 @@ params:
   # Tabs on homepage
   # Uncomment to enable.
   #
-  Format:
-   customTabs:
-    - name: Website
-      link: https://phoenixmedia.tk
+  #Format:
+  customTabs:
+   - name: Website
+     link: https://phoenixmedia.tk
 
   # Auto refresh the page
   # every ~5 min
