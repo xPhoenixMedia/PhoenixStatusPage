@@ -163,8 +163,7 @@ params:
   #
   Format:
    customTabs:
-    -
-      name: Website
+    - name: Website
       link: https://phoenixmedia.tk
 
   # Auto refresh the page
